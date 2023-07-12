@@ -34,7 +34,7 @@
   </nav>
   <div class="flex justify-end">
     <div
-      v-if="this.isShow == true"
+      v-if="isShow == true"
       class="bg-white absolute flex mr-4 justify-center items-center rounded-lg w-32 aspect-[2/3] shadow-md"
     >
       <ul>
