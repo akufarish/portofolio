@@ -15,15 +15,16 @@
         <li
           class="hover:text-white font-bold font-mono hover:font-medium transition-all"
         >
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </div>
       <li>
-        <button
+        <a
+          href="#contact"
           class="px-6 py-2 hidden lg:block border-2 text-yellow-200 rounded-full border-yellow-300 hover:bg-yellow-300 hover:text-black transition-all"
         >
           Contact
-        </button>
+        </a>
       </li>
       <button @click="responsive" class="flex lg:hidden flex-col gap-1">
         <div class="bg-white h-2 w-2 rounded-full"></div>
@@ -39,16 +40,16 @@
     >
       <ul>
         <li class="text-black text-lg font-medium">
-          <a href="#">Profile</a>
+          <a href="#profile">Profile</a>
         </li>
         <li class="text-black text-lg font-medium">
-          <a href="#">Tech stack</a>
+          <a href="#skill">Tech stack</a>
         </li>
         <li class="text-black text-lg font-medium">
-          <a href="#">Project</a>
+          <a href="#project">Project</a>
         </li>
         <li class="text-black text-lg font-medium">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

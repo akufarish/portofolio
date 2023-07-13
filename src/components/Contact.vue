@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center">
+  <section id="contact" class="flex justify-center items-center">
     <div
       class="flex p-6 justify-center flex-col max-w-md bg-slate-200 rounded-md shadow-lg"
     >
@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

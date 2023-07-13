@@ -13,11 +13,12 @@
         <p class="">Jurusan PPLG</p>
       </div>
       <div class="flex justify-center items-center">
-        <button
+        <a
+          href="#contact"
           class="mt-5 px-6 py-2 block border-2 border-violet-600 font-bold hover:text-yellow-200 rounded-full hover:border-yellow-300 hover:bg-violet-600 bg-yellow-300 text-black transition-all"
         >
           Contact
-        </button>
+        </a>
       </div>
     </div>
   </div>
