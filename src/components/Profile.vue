@@ -11,7 +11,7 @@
         class="group flex shadow-lg hover:shadow-md lg:mt-0 mt-12 transition-all duration-150 justify-center items-center relative"
       >
         <img
-          src="../assets/ris.jpg"
+          src="../assets/farish.jpeg"
           alt=""
           class="max-w-md z-30 rounded-md shadow-lg group-hover:shadow-sm"
           width="220"
