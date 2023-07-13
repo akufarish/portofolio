@@ -6,6 +6,7 @@
       <Profile></Profile>
       <Skill></Skill>
       <Project></Project>
+      <Contact></Contact>
     </div>
     <div class="">
       <Footer></Footer>
@@ -21,6 +22,7 @@ import Hero from "../components/Hero.vue";
 import Profile from "../components/Profile.vue";
 import Skill from "../components/Skill.vue";
 import Project from "../components/Project.vue";
+import Contact from "../components/Contact.vue";
 
 export default defineComponent({
   components: {
@@ -30,6 +32,7 @@ export default defineComponent({
     Profile,
     Skill,
     Project,
+    Contact,
   },
 
   data() {
