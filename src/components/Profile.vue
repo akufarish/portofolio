@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20">
+  <section id="profile" class="py-20">
     <div class="">
       <h3 class="text-center text-3xl font-bold font-mono">Profile</h3>
       <p class="font-sans text-center text-slate-600">Profile singkat</p>
@@ -8,16 +8,16 @@
       class="flex flex-col lg:flex-row gap-12 lg:gap-36 pb-12 justify-center place-items-center mx-12"
     >
       <aside
-        class="group flex lg:mt-0 mt-12 justify-center items-center relative"
+        class="group flex shadow-lg hover:shadow-md lg:mt-0 mt-12 transition-all duration-150 justify-center items-center relative"
       >
         <img
-          src="../assets/farish.jpeg"
+          src="../assets/ris.jpg"
           alt=""
-          class="max-w-md z-30 rounded-md"
+          class="max-w-md z-30 rounded-md shadow-lg group-hover:shadow-sm"
           width="220"
         />
         <div
-          class="bg-red-600 w-[222px] group-hover:rotate-[15deg] transition-transform duration-200 rounded-md h-[293px] z-20 -rotate-[15deg] absolute"
+          class="bg-red-600 w-[222px] group-hover:right-4 group-hover:bottom-4 transition-all duration-200 rounded-md h-[293px] z-20 group-hover:bg-red-700 border-[3px] border-red-800 group-hover:border-none right-7 bottom-7 absolute shadow-lg"
         ></div>
         <div
           class="absolute z-10 group-hover:z-30 opacity-0 group-hover:opacity-100 rounded-md bg-[#6e6d6d8a] w-[220px] h-[293px] flex justify-center items-center duration-300 transition-opacity"
@@ -48,7 +48,7 @@
         </p>
       </aside>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

@@ -1,21 +1,23 @@
 <template>
-  <div class="bg-gray-200 py-20 w-full">
-    <div class="">
-      <h3 class="text-center text-3xl font-bold font-mono">Tech stack</h3>
-      <p class="font-sans text-center text-slate-600">
-        Tech stack yang saya gunakan
-      </p>
-    </div>
-    <div class="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-12 mx-12">
-      <div v-for="(data, index) in tech" class="group" :key="index">
-        <div
-          class="flex justify-center transition-all duration-300 bg-slate-100 items-center group-hover:bg-white grayscale group-hover:grayscale-0 py-6 h-52 lg:px-7 px-2 rounded-lg shadow-xl"
-        >
-          <img :src="data.img" :width="data.width" class="" alt="" />
+  <section id="skill">
+    <div class="bg-gray-200 py-20 w-full">
+      <div class="">
+        <h3 class="text-center text-3xl font-bold font-mono">Tech stack</h3>
+        <p class="font-sans text-center text-slate-600">
+          Tech stack yang saya gunakan
+        </p>
+      </div>
+      <div class="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-12 mx-12">
+        <div v-for="(data, index) in tech" class="group" :key="index">
+          <div
+            class="flex justify-center transition-all duration-100 bg-slate-100 items-center group-hover:bg-white grayscale group-hover:grayscale-0 py-6 h-52 lg:px-7 px-2 rounded-lg shadow-xl group-hover:border-[3px] group-hover:border-slate-300"
+          >
+            <img :src="data.img" :width="data.width" class="" alt="" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

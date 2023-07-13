@@ -4,13 +4,13 @@
       <li class="text-white text-xl font-sans font-medium">FARISH</li>
       <div class="gap-12 hidden lg:flex">
         <li class="hover:text-white hover:font-medium transition-all">
-          <a href="#">Profile</a>
+          <a href="#profile">Profile</a>
         </li>
         <li class="hover:text-white hover:font-medium transition-all">
-          <a href="#">Tech stack</a>
+          <a href="#skill">Tech stack</a>
         </li>
         <li class="hover:text-white hover:font-medium transition-all">
-          <a href="#">Project</a>
+          <a href="#project">Project</a>
         </li>
         <li
           class="hover:text-white font-bold font-mono hover:font-medium transition-all"

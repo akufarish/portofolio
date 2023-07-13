@@ -1,6 +1,6 @@
 <template>
   <div class="bg-violet-600 w-full text-center mx-auto text-white pt-24 pb-32">
-    <div class="font-mono">
+    <div class="font-mono mx-5 lg:mx-0">
       <h3 class="uppercase font-semibold text-3xl">
         Muhammad
         <span class="underline">Farish</span> Asqalani
